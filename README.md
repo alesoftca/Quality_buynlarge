@@ -79,14 +79,14 @@ También incluye la sección de Chat, donde podrá hacer preguntas básicas al s
 Tenga en cuenta que las preguntas son básicas, pues analizar expresiones para diseñar consultas SQL es un
 tema avanzado, que requiere una mayor inversión de tiempo al proporcionado.
 
-Aunque la interfaz para el chat es muy amigable e intuitiva, aún requiere de mejoras en la sincronización
-y pintado de los mensajes, esto, cuando la cantidad de mensaje excede el área visible del componente de
-desplazamiento, pues empiezan a mostrarse de forma irregular.
+Aunque la interfaz para el chat es muy intuitiva, aún requiere de mejoras en la sincronización y pintado de los 
+mensajes, ya que cuando la cantidad de mensaje excede el área visible del componente de desplazamiento, empiezan 
+a mostrarse de forma irregular.
 
 ## Crédito
 * Luis Angulo
 * alesoftca@gmail.com
-* +57 3002888018
+
 
 
 
