@@ -1,15 +1,12 @@
 # Saludos
-Es proyecto ha sido realizado tratando de cumplir con los requi sugeridos por 
-empresa Quality Software
+Este proyecto ha sido realizado para cumplir con los requisitos exigidos por la empresa Quality Software
+y asi demostrar habilidades en el lenguaje de programación Delphi.
 
-El presente software es una prueba de concepto que intenta cumplir con la solicitud exigida por la empresa 
-Quality Software.
-
-El back utilizado ha sido desarrollado en Go (golang), con lo cual intento destacar el potencial que tiene 
+El backend utilizado ha sido desarrollado en Go (golang), con lo cual intento destacar el potencial que tiene 
 Delphi para conectar vía http con otras aplicaciones.
 
 El front ha sido diseñado en Delphi, utilizando dos de los framework más populares y exitosos en ese lenguaje 
-(Spring4D, DMVCFramework), por lo que al intentar compilar el código fuente debe tenerse instalado ambos framework.
+(Spring4D, DMVCFramework), por lo que al intentar compilar el código fuente deben tener instalado ambos framework.
 
 El servidor de datos utilizados ha sido SQL Server, con tablas sumamente sencillas y fáciles de editar.
 
@@ -46,18 +43,16 @@ En \scripts\metadata.sql encontrará los scripts requeridos para generar su base
 
 \output     contiene el archivo comprimido buynlarge_apps.zip, allí están los ejecutables para las pruebas.
 
-El proyecto se integra con OpenAI, por lo que debe crear una cuenta en dicha plataforma y obtener un APIKEY,
-una vez la consiga, vaya al archivo .env del proyecto y asigne la variable OPENAI_API_KEY. Esta asignación debe
-hacerla también en el archivo .env de la carpeta \output, que es donde actualmente está el ejecutable del proyecto, 
-el cual fue compilado en modo depurador para que usted pueda ver las solicitudes recibidas.
-
-La OPENAI_API_KEY proporcionada para el proyecto es personal, y tiene tiempo de caducidad por fecha y/o consumo.
+El proyecto se integra con OpenAI, por lo que deben crear una cuenta en dicha plataforma y obtener un APIKEY,
+una vez la consiga, editen el archivo .env del proyecto y asigne la clave a variable OPENAI_API_KEY. 
+Esta acción debe hacerse también al archivo .env de la carpeta \output, pues allí están los ejecutables del 
+proyecto. El servicio fue compilado en modo depurador para que usted pueda ver las solicitudes recibidas.
 
 El acceso a datos es con sql directo, muy sencillo, pues al ser un proyecto muy pequeño, no hubo necesidad 
 de emplear algún ORM para la gestión de datos.
 
 El servicio http se realiza mediante la aplicación buynlarge_server, y utiliza el puerto 8080, por lo que 
-debe asegurarse que no este siendo previamente utilizado por otra aplicación antes de ejecutar esta.
+debe asegurarse que no esté siendo previamente utilizado por otra aplicación antes de ejecutar esta.
 
 ## Frontend
 
